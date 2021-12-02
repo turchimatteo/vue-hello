@@ -6,3 +6,11 @@ Aggiungere alla pagina un’immagine, presa anch’essa da un data.
 */
 
 Vue.config.devtools = true;
+const root = new Vue (
+    {
+        el: '#root',
+        data: {
+            message:'Sono un titolo h1'
+        }
+    }
+);
