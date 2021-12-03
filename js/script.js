@@ -10,7 +10,8 @@ const root = new Vue (
     {
         el: '#root',
         data: {
-            message:'Sono un titolo h1'
+            message:'Sono un titolo h1',
+            imgSrc: 'https://www.limontasport.com/wp-content/uploads/2016/03/landscape-test.jpg',
         }
     }
 );
